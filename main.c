@@ -66,7 +66,7 @@ void main()
     printf("\n INVALID CHOICE");
    }
     printf("\n\n\n   DO U WISH TO HAVE ANOTHER TRANSCATION?(y/n):   ");
-    fflush(stdin);
+    fflush(stdin); //to clear the intial buffer
     scanf("%c", &transaction);
    if (transaction == 'n'|| transaction == 'N')
     i = 1; }
